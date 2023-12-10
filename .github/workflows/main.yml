@@ -25,7 +25,7 @@ jobs:
 
        # 添加依赖
       - name: install
-        run: yarn install
+        run: yarn init
         
       - name: install vuepress
         run: yarn add -D vuepress
