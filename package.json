@@ -1,0 +1,15 @@
+{
+  "name": "vuepress-fsl",
+  "version": "1.0.0",
+  "description": "fsl's vuepress blog",
+  "main": "index.js",
+  "author": "LBFan <fanshulin_2016@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
