@@ -22,7 +22,11 @@ jobs:
         with:
           # 选择要使用的 node 版本
           node-version: 18
-          
+
+       # 添加依赖
+      - name: install
+        run: yarn install
+        
       - name: install vuepress
         run: yarn add -D vuepress
 
