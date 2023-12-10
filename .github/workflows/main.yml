@@ -24,7 +24,7 @@ jobs:
           node-version: 18
 
       - name: install vuepress
-        run: yarn add -D vuepress
+        run: yarn add -D vuepress@next
 
       # 运行构建脚本
       - name: Build VuePress site
