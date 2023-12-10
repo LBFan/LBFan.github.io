@@ -23,6 +23,9 @@ jobs:
           # 选择要使用的 node 版本
           node-version: 18
 
+      - name: install vuepress
+        run: yarn add -D vuepress
+
       # 运行构建脚本
       - name: Build VuePress site
         run: yarn docs:build
