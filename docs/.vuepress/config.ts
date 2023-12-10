@@ -3,7 +3,7 @@ import {defineUserConfig, defaultTheme} from 'vuepress'
 export default defineUserConfig({
     lang: 'zh-CN',
     title: '勇往直前的博客',
-    base: '/', // 这是部署到github相关的配置
+    base: '/start/', // 这是部署到github相关的配置
     description: '这是我的第一个 VuePress 站点',
     theme: defaultTheme({
         logo: '/images/logo.png',
